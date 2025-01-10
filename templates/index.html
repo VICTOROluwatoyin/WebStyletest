@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature Landscapes</title>
+    <link rel="stylesheet" href="https://cdn.replit.com/agent/bootstrap-agent-dark-theme.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><i class="bi bi-tree"></i> Nature Views</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero text-center text-white">
+        <div class="container">
+            <h1 class="display-4 mb-4">Discover Nature's Beauty</h1>
+            <p class="lead mb-5">Explore breathtaking landscapes from around the world</p>
+            <a href="#gallery" class="btn btn-outline-light btn-lg">View Gallery</a>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section-padding">
+        <div class="container">
+            <h2 class="text-center mb-5">Featured Landscapes</h2>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="card bg-dark">
+                        <img src="https://images.unsplash.com/photo-1490117416794-09045ddf79ab" 
+                             class="card-img-top content-image" 
+                             alt="Mountain landscape by Jakob Owens">
+                        <div class="card-body">
+                            <h5 class="card-title">Mountain Vista</h5>
+                            <p class="card-text">Captured by Jakob Owens</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card bg-dark">
+                        <img src="https://images.unsplash.com/photo-1663765970236-f2acfde22237" 
+                             class="card-img-top content-image" 
+                             alt="Forest landscape by Isaac Maffeis">
+                        <div class="card-body">
+                            <h5 class="card-title">Forest Serenity</h5>
+                            <p class="card-text">Captured by Isaac Maffeis</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="mb-4">About Our Gallery</h2>
+                    <p class="lead">We showcase the most stunning natural landscapes from talented photographers around the globe. Our curated collection brings the beauty of nature right to your screen.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p class="mb-0">&copy; 2023 Nature Views. All rights reserved.</p>
+                    <div class="mt-3">
+                        <a href="#" class="text-decoration-none me-3"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="text-decoration-none me-3"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="text-decoration-none"><i class="bi bi-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

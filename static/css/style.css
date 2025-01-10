@@ -1,0 +1,41 @@
+/* Custom styles to complement Bootstrap */
+.hero {
+    min-height: 80vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                var(--bs-dark);
+    display: flex;
+    align-items: center;
+}
+
+.content-image {
+    border-radius: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.content-image:hover {
+    transform: scale(1.02);
+}
+
+.section-padding {
+    padding: 5rem 0;
+}
+
+/* Smooth scroll behavior */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Navbar animation */
+.navbar-brand {
+    transition: opacity 0.3s ease;
+}
+
+.navbar-brand:hover {
+    opacity: 0.8;
+}
+
+/* Footer styling */
+.footer {
+    background-color: var(--bs-dark);
+    padding: 2rem 0;
+}
