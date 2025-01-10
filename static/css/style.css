@@ -1,9 +1,0 @@
-/* Custom styles to complement Bootstrap */
-body {
-    background: var(--bs-dark);
-    color: var(--bs-light);
-}
-
-h1 {
-    text-align: center;
-}
